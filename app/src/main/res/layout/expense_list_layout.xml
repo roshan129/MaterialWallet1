@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="@dimen/dimen_common_small"
+        android:layout_marginEnd="@dimen/dimen_common_small"
+        android:clickable="true"
+        app:cardElevation="4dp"
+        android:focusable="true"
+        android:orientation="vertical"
+        app:cardCornerRadius="20dp"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeWidth="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_common"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/layout_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/txtv_card_cate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_below="@+id/txtv_card_date"
+                    android:padding="4dp"
+                    android:text="Category : Food"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/txtv_card_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+
+                    android:text="Payment : Cash"
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtv_card_amt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:text="Amount : 500 Rs."
+
+                    />
+
+                <TextView
+                    android:id="@+id/txtv_card_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="Note : Dinner"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+
+
+        </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                >
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="wrap_content"
+                    app:strokeWidth="2dp"
+                    app:strokeColor="@color/colorPrimary"
+                    android:layout_margin="@dimen/dimen_common"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dimen_common_small">
+
+
+                        <TextView
+                            android:id="@+id/txt_card_day"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|center"
+                            android:text="Wednesday"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/txt_card_month"
+                            android:layout_width="92dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|center"
+                            android:paddingTop="@dimen/dimen_common_small"
+                            android:text="30 September"
+                            android:textAlignment="center"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/txt_card_year"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|center"
+                            android:paddingTop="@dimen/dimen_common_small"
+                            android:text="2019"
+
+                            android:textAlignment="center" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <!--android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle2"-->
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

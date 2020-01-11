@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kharcha Rupaiya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="mydetails">
+        <b> Developer:</b> \n
+        <b> Name: Roshan Adke</b>\n.
+        Email: roshanadke2015@gmail.com\n
+        <u>Contact: 7875022564</u>\n
+    </string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+
+    <string name="registration_text">Dont Have An Account ?</string>
+    <string name="forgot_password">Forgot Password ?</string>
+
+</resources>

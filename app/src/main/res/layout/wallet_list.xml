@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:id="@+id/table_grid_position"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/list_id"
+                android:background="@drawable/edittext_border_red"
+                android:layout_weight="0.5"
+                android:width="10dp"
+                android:layout_height="25dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/list_date"
+                android:background="@drawable/edittext_border_red"
+                android:layout_weight="6"
+                android:width="60dp"
+                android:layout_height="25dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/list_category"
+                android:background="@drawable/edittext_border_red"
+                android:layout_weight="6"
+                android:width="50dp"
+                android:layout_height="25dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/list_amt"
+                android:background="@drawable/edittext_border_red"
+                android:layout_weight="0.5"
+                android:width="60dp"
+                android:layout_height="25dp"
+                android:gravity="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "241525137902",
+    "firebase_url": "https://material-wallet.firebaseio.com",
+    "project_id": "material-wallet",
+    "storage_bucket": "material-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241525137902:android:d0e70b61455d732ad82eff",
+        "android_client_info": {
+          "package_name": "com.roshanadke.materialwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241525137902-g3qitntstg1mju55t2ggv08gpt090em3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roshanadke.materialwallet",
+            "certificate_hash": "3408fc36a3271f8b564e375427ff434a9e7ee2b0"
+          }
+        },
+        {
+          "client_id": "241525137902-98tc49qaffa0j41h04bc3c3n2rtkp29h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIc_tZ7d2mwQ-IjsKQVSUwS8efayJDhGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241525137902-98tc49qaffa0j41h04bc3c3n2rtkp29h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

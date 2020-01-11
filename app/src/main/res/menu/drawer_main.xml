@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+        <group android:id="@+id/grp1">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:iconTint="@color/blue_primary"
+            android:title="Home" />
+        </group>
+        <group android:id="@+id/grp2">
+        <item
+            android:id="@+id/nav_date_report"
+            android:icon="@drawable/date_report_icon"
+            android:title="Datewise Report" />
+        </group>
+        <group android:id="@+id/grp3">
+        <item
+            android:id="@+id/nav_cate_report"
+            android:icon="@drawable/category_icon"
+            android:title="Categorywise Report" />
+        </group>
+        <group android:id="@+id/grp4">
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@drawable/calender_icon"
+            android:title="Calender" />
+        </group>
+        <group android:id="@+id/grp5">
+        <item
+            android:id="@+id/nav_total_transaction"
+            android:icon="@drawable/transaction_icon"
+            android:title="Total Transaction" />
+        </group>
+        <group android:id="@+id/grp6">
+        <item
+            android:icon="@drawable/settings_icon"
+            android:id="@+id/nav_setting"
+            android:title="Settings" />
+        </group>
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/log_out_icon"
+            android:title="Log Out" />
+
+
+
+</menu>
