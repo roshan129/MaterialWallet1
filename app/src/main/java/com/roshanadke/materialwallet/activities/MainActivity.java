@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void showPieChart() {
         for (int c : MY_COLORS) colors1.add(c);
 
-        PieDataSet pieDataSet = new PieDataSet(pieEntries, "Example Pie Chart");
+        PieDataSet pieDataSet = new PieDataSet(pieEntries, "");
         Log.d(TAG, "showPieChart: " + pieEntries.toString());
         pieDataSet.setColors(colors1);
         pieDataSet.setValueTextSize(6f);            // changes percentage's text size(y-axis value)
